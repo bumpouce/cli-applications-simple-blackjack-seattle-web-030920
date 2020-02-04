@@ -58,7 +58,7 @@ def runner
   binding.pry 
   
 #  while hand < 22 
-    hit?(hand)
+    hand = hit?(hand)
     display_card_total(hand)
 #  end
   binding.pry
