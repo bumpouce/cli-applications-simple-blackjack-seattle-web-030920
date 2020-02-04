@@ -55,6 +55,7 @@ end
 def runner
   welcome
   hand = initial_round
+  binding.pry 
   
 #  while hand < 22 
     hit?(hand)
