@@ -37,7 +37,9 @@ def hit? (total)
   if input == "s"
     return total
   elsif input == "h"
-    return total + deal_card    
+    return total + deal_card   
+  else  
+    invalid_command
   end
 
   binding.pry
