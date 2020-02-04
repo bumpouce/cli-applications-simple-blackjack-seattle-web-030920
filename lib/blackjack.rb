@@ -39,11 +39,9 @@ def hit? (total)
   elsif input == "h"
     return total + deal_card   
   else  
-    invalid_command
+    return invalid_command
   end
 
-  binding.pry
-  total
 end
 
 def invalid_command
