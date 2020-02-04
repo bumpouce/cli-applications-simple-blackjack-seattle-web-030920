@@ -57,10 +57,10 @@ def runner
   hand = initial_round
   binding.pry 
   
-#  while hand < 22 
+  while hand < 22 
     hand = hit?(hand)
     display_card_total(hand)
-#  end
+  end
   binding.pry
   
   end_game (hand)
