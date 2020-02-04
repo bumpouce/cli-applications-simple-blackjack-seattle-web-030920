@@ -33,6 +33,10 @@ end
 def hit? (total)
   prompt_user
   input = get_user_input
+  
+  if input == "s"
+    return total
+  end
 
   binding.pry
   total
