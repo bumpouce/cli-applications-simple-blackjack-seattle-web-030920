@@ -60,6 +60,7 @@ def runner
     hit?(hand)
     display_card_total(hand)
 #  end
+  binding.pry
   
   end_game (hand)
 end
