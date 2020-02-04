@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -32,6 +34,7 @@ def hit? (total)
   prompt_user
   get_user_input
 
+  binding.pry
   total
 end
 
