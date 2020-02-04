@@ -42,7 +42,6 @@ def hit? (total)
     invalid_command
     hit?(total)
   end
-
 end
 
 def invalid_command
@@ -54,6 +53,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  hand = initial_round
+  hit?(hand)
+  display_card_total(hand)
+  
 end
     
